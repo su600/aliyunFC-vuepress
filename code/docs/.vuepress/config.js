@@ -9,6 +9,8 @@ module.exports = {
     ],
     sidebar: [
       '/',
+      '/Industrial Automation/',
+      '/Cloud Computing & Native/',
       '/intro/',
       '/basic-config/'
     ]
