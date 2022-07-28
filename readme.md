@@ -1,4 +1,4 @@
-# website-vuepress 帮助文档
+# Su600 website-vuepress 帮助文档
 
 <p align="center" class="flex justify-center">
     <a href="https://www.serverless-devs.com" class="ml-1">
@@ -20,10 +20,6 @@
 
 <table>
 
-
-
-</table>
-
 <codepre id="codepre">
 
 </codepre>
@@ -35,14 +31,14 @@
 <appcenter>
 
 - :fire: 通过 [Serverless 应用中心](https://fcnext.console.aliyun.com/applications/create?template=website-vuepress) ，
-[![Deploy with Severless Devs](https://img.alicdn.com/imgextra/i1/O1CN01w5RFbX1v45s8TIXPz_!!6000000006118-55-tps-95-28.svg)](https://fcnext.console.aliyun.com/applications/create?template=website-vuepress)  该应用。 
+  [![Deploy with Severless Devs](https://img.alicdn.com/imgextra/i1/O1CN01w5RFbX1v45s8TIXPz_!!6000000006118-55-tps-95-28.svg)](https://fcnext.console.aliyun.com/applications/create?template=website-vuepress)  该应用。
 
 </appcenter>
 
 - 通过 [Serverless Devs Cli](https://www.serverless-devs.com/serverless-devs/install) 进行部署：
-    - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://www.serverless-devs.com/fc/config) ；
-    - 初始化项目：`s init website-vuepress -d website-vuepress`   
-    - 进入项目，并进行项目部署：`cd website-vuepress && s deploy -y`
+  - [安装 Serverless Devs Cli 开发者工具](https://www.serverless-devs.com/serverless-devs/install) ，并进行[授权信息配置](https://www.serverless-devs.com/fc/config) ；
+  - 初始化项目：`s init website-vuepress -d website-vuepress`
+  - 进入项目，并进行项目部署：`cd website-vuepress && s deploy -y`
 
 </deploy>
 
@@ -53,7 +49,7 @@
 本项目是将非常流行文档框架 `vuepress`，部署到阿里云 Serverless 平台（函数计算 FC）。
 
 > vuepress 将助您在极短时间内搭建优美的文档网站，
-您可以专注于内容创作，仅需编写 Markdown 文件即可。
+> 您可以专注于内容创作，仅需编写 Markdown 文件即可。
 
 通过 Serverless Devs 开发者工具，您只需要几步，就可以体验 Serverless 架构，带来的降本提效的技术红利。
 
@@ -65,7 +61,6 @@
 
 ![图片alt](https://img.alicdn.com/imgextra/i4/O1CN01vy6HCS25JnbsgNHQl_!!6000000007506-2-tps-2528-1328.png)
 
-
 </appdetail>
 
 <devgroup>
@@ -76,9 +71,10 @@
 
 <p align="center">
 
+
 | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407298906_20211028074819117230.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407044136_20211028074404326599.png" width="130px" > | <img src="https://serverless-article-picture.oss-cn-hangzhou.aliyuncs.com/1635407252200_20211028074732517533.png" width="130px" > |
-|--- | --- | --- |
-| <center>微信公众号：`serverless`</center> | <center>微信小助手：`xiaojiangwh`</center> | <center>钉钉交流群：`33947367`</center> | 
+| - | - | - |
+| <center>微信公众号：`serverless`</center> | <center>微信小助手：`xiaojiangwh`</center> | <center>钉钉交流群：`33947367`</center> |
 
 </p>
 
