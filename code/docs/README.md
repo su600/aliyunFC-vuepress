@@ -52,10 +52,16 @@ data.tail(5) #查看后五条记录
 
 # 模型保存
 
+```python
 with open('prophet_model.json', 'w') as md:
     json.dump(model_to_json(model), md)
+```
 
 # 模型读取
 
+```python
 with open('prophet_model.json', 'r') as md:
-    model = model_from_json(json.load(md))> 这是引用文字
+    model = model_from_json(json.load(md))> 
+```
+
+> 这是引用文字
