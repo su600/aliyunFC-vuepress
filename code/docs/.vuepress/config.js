@@ -9,6 +9,7 @@ module.exports = {
     ],
     sidebar: [
       '/',
+      '/tech-stack/',
       '/automation/',
       '/cloud-computing/',
       '/intro/',
