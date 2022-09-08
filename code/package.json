@@ -1,7 +1,7 @@
 {
   "name": "website-vuepress",
   "version": "1.0.0",
-  "description": "极简静态网站生成器",
+  "description": "VuePress",
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",
