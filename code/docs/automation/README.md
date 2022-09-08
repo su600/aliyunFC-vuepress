@@ -18,9 +18,10 @@
 - pylogix
 - pymodbus
 - opcua
-- focas
-
+- pyLSV2
 ---
+
+- fwlib FANUC机床 go/Python
 
 ### NodeRed
 
@@ -35,31 +36,34 @@
 
 emqx
 
+- EMQX 5.0
 - 规则引擎
-- Neuron网关（2.0开源）
+- Neuron网关（2.0架构开源）
 
 ### 时序数据库（TDengine为主）
-
-sss
 
 - TDengine
 - IoTDB
 - MarixDB
 - 其它数据库比如TiDB等归在云原生技术领域
+- mangoDB在IoT的应用
+- (SQLite)
 
 ### 数据可视化（Grafana为主）
 
 sss
 
-- Grafana
+- Grafana(与EMQX、TDengine形成生态解决方案)
 - ThingsBoard
 - Elastic Search的Kibana
+- Streamlit
 
 ### RESTful
 
 sss
 
-基于flask-restful对TDengine的RESTful接口进行二次封装
+- 基于flask-restful对TDengine的RESTful接口进行二次封装
+- 考虑Go语言的实现
 
 ### OPC UA
 
