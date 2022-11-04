@@ -1,11 +1,17 @@
 # Su 技术体系
 
+<<<<<<< HEAD
+=======
+（来自 X-Mind，最好通过Xmind更新导图，不要手动更新）
+
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 ## 工业互联网技术
 
 ### 工业自动化
 
 - 西门子
 
+<<<<<<< HEAD
 	- PLC
 
 		- S7-200、300
@@ -25,11 +31,33 @@
 		- nano
 		- 2040
 		- 2050
+=======
+  - PLC
+
+    - S7-200、300
+    - S7-1200
+
+      - v4.4固件支持OPC UA
+
+    - S7-1500
+
+  - 数控系统
+
+    - 840D
+
+  - TIA 博途
+  - Industrial Edge
+
+    - nano
+    - 2040
+    - 2050
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 倍福PLC、TwinCAT
 - 罗克韦尔AB PLC
 - 发那科
 
+<<<<<<< HEAD
 	- 机器人
 	- 数控系统
 
@@ -41,12 +69,22 @@
 
 			- Win——DLL
 			- Linux——.so
+=======
+  - 机器人
+  - 数控系统
+  - Focas
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Kuka机器人
 - UR协作机器人
 
+<<<<<<< HEAD
 	- NodeRed
 	- ROS
+=======
+  - NodeRed
+  - ROS
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Straton Editor
 - CoDeSys软PLC
@@ -59,6 +97,7 @@
 - EtherNET/IP
 - OPC UA
 
+<<<<<<< HEAD
 	- UaExpert
 	- 西门子UA信息模型编辑器
 	- SDK
@@ -67,12 +106,26 @@
 		- Prosys Java SDK
 		- Markiton C++ SDK
 		- 62541 pub/sub
+=======
+  - UaExpert
+  - 西门子UA信息模型编辑器
+  - SDK
+
+    - Python SDK
+    - Prosys Java SDK
+    - Markiton C++ SDK
+    - 62541 pub/sub
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - RFID
 - 赫优讯
 - TSN
 
+<<<<<<< HEAD
 	- OPC UA over TSN
+=======
+  - OPC UA over TSN
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - NC-Link
 - MTConnect
@@ -81,6 +134,7 @@
 
 - 西门子S7
 
+<<<<<<< HEAD
 	- pysnap7
 
 - OPC UA
@@ -108,13 +162,46 @@
 - Modbus
 
 	- 仪表、能耗
+=======
+  - pysnap7
+
+- OPC UA
+
+  - async-ua
+
+    - 证书加密登录未解决
+
+      - Basic256Sha256
+
+- 倍福ADS
+
+  - pyads
+
+    - 变量表扫描
+    - ads路由添加（仅linux）
+
+- 罗克韦尔CIP
+
+  - pylogix
+
+    - 设备扫描
+    - 变量表扫描
+
+- Modbus
+
+  - 仪表、能耗
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Docker容器化
 - 发那科Focas
 
+<<<<<<< HEAD
 	- Dll/so文件
 
 		- Python Ctype调用
+=======
+  - Dll/so文件
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - TCP/IP
 - socket
@@ -126,18 +213,28 @@
 
 - Flask
 
+<<<<<<< HEAD
 	- Flask-Bootstrap
 	- Flash
 	- BluePrint
 	- Flask-RESTful
 	- Flask 2.0
 	- Docker容器
+=======
+  - Flask-Bootstrap
+  - Flash
+  - BluePrint
+  - Flask-RESTful
+  - Flask 2.0
+  - Docker容器
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 数据采集
 - MQTT
 - Pandas数据处理
 - Streamlit框架
 
+<<<<<<< HEAD
 	- Python Web框架
 	- 结合数据分析、数据库等
 	- 可视化组件
@@ -165,10 +262,40 @@
 
 	- CSV批量处理，自动建库建表
 	- OPC UA 信息模型XML文件自动生成
+=======
+  - Python Web框架
+  - 结合数据分析、数据库等
+  - 可视化组件
+
+    - API原生组件
+
+      - 文字
+      - 侧边栏
+      - 提示
+      - 文件上传下载
+      - 表格
+      - 下拉框 多选框
+      - 滑块 区间滑块
+      - 输入框
+      - 媒体（音、图、视频）
+      - 缓存 性能
+
+    - Components
+
+      - Echarts
+      - 3D mol
+      - 媒体
+
+- CSV文件、XML文件
+
+  - CSV批量处理，自动建库建表
+  - OPC UA 信息模型XML文件自动生成
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 爬虫，浏览器模拟操作
 - Instapaper Bookmark
 
+<<<<<<< HEAD
 	- 自动同步到OneNote
 
 - PyQt
@@ -180,6 +307,13 @@
 - 静态语言
 
 	- 编译
+=======
+  - 自动同步到OneNote
+
+- PyQt
+
+  - 高温搬运机器人控制程序
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### NodeRed
 
@@ -193,6 +327,7 @@
 
 - MQTT
 
+<<<<<<< HEAD
 	- Python SDK
 
 		- 同步
@@ -227,11 +362,48 @@
 
 		- Clinet
 		- Server
+=======
+  - Python SDK
+
+    - 同步
+    - 异步
+
+  - QoS
+  - SparkPlug B规范
+
+    - 互操作
+    - 可discover tags
+
+  - MQTT  over QUIC
+
+    - EMQX 5.0
+
+- HTTP
+
+  - Flask RESTful
+
+    - WebHook
+    - Flask2.0
+    - TDengine RESTful二次封装
+
+      - 实时数据
+      - 近期数据
+      - 指定时间段数据
+      - OEE计算
+
+- OPC UA
+
+  - SDK
+
+    - Clinet
+    - Server
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### EMQ消息中间件
 
 - EMQ X Broker
 
+<<<<<<< HEAD
 	- Dashboard
 
 		- 5.0 UI、逻辑更新
@@ -256,16 +428,51 @@
 
 	- Sparkplug B
 	- Docker
+=======
+  - Dashboard
+
+    - 5.0 UI、逻辑更新
+
+  - 规则引擎
+
+    - 数据转发
+    - 数据集成
+
+      - Webhook 
+
+        - TDengine
+
+      - 商业版kafaka、CH等
+
+    - 消息桥接
+
+      - MQTT桥接
+
+    - 分析计算
+    - New可视化流程图
+
+  - Sparkplug B
+  - Docker
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - MQTTX客户端
 - EMQ Neuron（商业收费）
 
+<<<<<<< HEAD
 	- 2.0架构开源
 
 		- Docker容器化
 		- 管理Web GUI
 		- 驱动二进制so文件
 		- 配置文件json
+=======
+  - 2.0架构开源
+
+    - Docker容器化
+    - 管理Web GUI
+    - 驱动二进制so文件
+    - 配置文件json
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - EMQ X Cloud
 
@@ -273,6 +480,7 @@
 
 - 关系型数据库
 
+<<<<<<< HEAD
 	- MySQL
 
 		- SQL
@@ -312,10 +520,52 @@
 				- 集群灾备
 
 			- 云原生分布式
+=======
+  - MySQL
+
+    - SQL
+    - Python库
+    - 游标、执行
+    - Docker
+
+- MongoDB
+
+  - 日志存储
+  - 文件存储
+  - 也支持IoT时序数据
+  - Mongo Chart可视化
+
+- HTAP数据库
+
+  - PingCAP
+
+    - TiDB
+
+      - 场景
+      - 工具
+
+        - 安装部署
+
+          - TiUP
+          - TiOperator
+
+        - 运维和可视化
+
+          - TiDB Dashboard
+
+        - 数据流转
+
+          - 与TDengine结合
+
+        - 集群灾备
+
+      - 云原生分布式
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Kyligence
 - 时序数据库
 
+<<<<<<< HEAD
 	- InfluxData
 
 		- Telegraf收集器
@@ -416,6 +666,100 @@
 			- 诊断
 
 		- Python SDK
+=======
+  - InfluxData
+
+    - Telegraf收集器
+
+      - MQTT
+      - OPC UA
+
+    - InfluxDB
+
+      - Docker
+
+    - Chronograf
+    - Kapacitor
+
+  - TDengine
+
+    - RESTul接口
+    - 类似SQL语法
+
+      - 不等于SQL
+
+    - 统计计算、降维、聚合、滑动窗口
+    - 超级表
+
+      - 1个采集点1个Table
+      - 分布式传感器汇总计算
+      - 基于超级表创建子表
+
+        - 第一次写入可自动创建
+
+      - 动态数据
+      - 静态数据（TAG）
+
+    - 集群功能开源
+
+      - compose部署
+      - k8s部署
+      - 集群主从关系
+
+        - 掉线无法写入
+
+    - 配置文件——时区设置、RESful limt设置
+    - 数据导入导出
+
+      - taosdump
+      - csv
+
+        - 提前建好Table，csv文件只要数据
+
+    - 基于Streamlit和RESTful的可视化查询和导出
+    - Docker
+
+  - QuestDB
+
+    - 查询速度是TD的10倍左右
+    - 支持PostgreSQL接口
+
+      - Grafana
+      - SQLer
+
+    - Docker
+
+  - Apache IoTDB（清华）
+  - MatrixDB超融合时序数据库
+
+    - 超融合
+    - Web GUI部署和管理
+
+  - HStreamDB
+
+    - （EMQ）
+
+  - ConosDB
+  - Prometheus
+  - Clickhouse
+  - OpenTSDB
+
+- 向量数据库
+
+  - Milvus开源向量数据库
+
+    - 部署
+
+      - K8s平台部署
+      - KubeSphere商店部署
+
+    - 应用场景
+
+      - 相似性搜索
+      - 诊断
+
+    - Python SDK
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - DBRanking、墨天轮数据库排名
 
@@ -423,6 +767,7 @@
 
 - Grafana Lab
 
+<<<<<<< HEAD
 	- Grafana
 
 		- 配置项
@@ -477,10 +822,67 @@
 - Amcharts
 
 	- Amchart Map
+=======
+  - Grafana
+
+    - 配置项
+
+      - 免登录
+      - iframe
+      - 非认证插件（TD）
+
+    - datasource
+
+      - Mysql
+      - influxdb
+      - TDengine
+
+        - 插件安装
+
+      - prostgresql
+
+        - QuestDB（PostgreSQL）
+
+      - websocket
+      - opcua
+
+    - Live Streaming
+    - 可视化
+
+      - Value mapper
+      - 报警
+
+        - Alert List
+
+      - 数据单位
+      - OEE State TimeLine插件
+      - 跨DataSource汇总计算
+      - Variable配置 可变参数面板
+      - 数据分析插件、AI机器视觉可视化
+      - Inspect数据导出csv
+
+    - Docker
+
+- Echarts
+
+  - Pyecharts
+
+    - Flask集成
+    - Streamlit集成
+
+  - JS原生
+
+    - 灵活性好、动态关联集成
+
+- Amcharts
+
+  - Amchart Map
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - AG Grid
 - Elastic Search Kibana
 
+<<<<<<< HEAD
 	- Filebeat
 	- Machinebeat
 
@@ -491,6 +893,18 @@
 - Superset
 
 	- Docker
+=======
+  - Filebeat
+  - Machinebeat
+
+- Streamlit
+
+  - 数据可视化查询及导出
+
+- Superset
+
+  - Docker
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - HEAVY.AI（原OmniSci ）
 
@@ -498,7 +912,11 @@
 
 - 缺顶层的IoT平台、管理系统
 
+<<<<<<< HEAD
 	- 参考西门子Industrial Edge
+=======
+  - 参考西门子Industrial Edge
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### ThingsBoard
 
@@ -520,7 +938,11 @@
 - 设备监控
 - 驱动管理
 
+<<<<<<< HEAD
 	- 同时参考Nueron
+=======
+  - 同时参考Nueron
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 脚本一键部署
 
@@ -544,6 +966,7 @@
 
 - CNCF定义
 
+<<<<<<< HEAD
 	- 容器
 
 		- 不止Docker
@@ -552,6 +975,16 @@
 	- 微服务
 	- 不可变基础设施
 	- 声明式API
+=======
+  - 容器
+
+    - 不止Docker
+
+  - 服务网格
+  - 微服务
+  - 不可变基础设施
+  - 声明式API
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Serverless、Infrastructure as Code
 
@@ -568,6 +1001,7 @@
 
 - Dockerfile
 
+<<<<<<< HEAD
 	- dfimage从image导出dockerfile（有局限）
 
 - Docker compose
@@ -575,10 +1009,20 @@
 	- 批量部署
 
 		- 数据采集系统一键部署脚本
+=======
+  - dfimage从image导出dockerfile（有局限）
+
+- Docker compose
+
+  - 批量部署
+
+    - 数据采集系统一键部署脚本
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - docker镜像导入导出commit
 - 容器网络
 
+<<<<<<< HEAD
 	- volume
 
 		- 文件copy
@@ -612,6 +1056,40 @@
 
 	- Docker hub
 	- 阿里云个人仓库
+=======
+  - volume
+
+    - 文件copy
+
+      - 启动策略
+
+        - 环境变量
+
+- portainer
+- Docker buildx多平台镜像
+- 镜像仓库
+
+  - Harbor搭建和使用
+    (VMWare开源）
+
+    - Harbor镜像列表导出
+    - 镜像x86/arm
+
+      - Python IIoT运行环境
+      - TDengine
+
+        - 修改配置文件
+
+      - Grafana
+
+        - TD插件
+        - 配置文件
+
+      - Java OPC UA Server
+
+  - Docker hub
+  - 阿里云个人仓库
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 阿里Dragonfly镜像P2P加速
 
@@ -619,14 +1097,21 @@
 
 - CLI命令行
 
+<<<<<<< HEAD
 	- Ctr
 	- Crictl
 	- 官方nerdctl
+=======
+  - Ctr
+  - Crictl
+  - 官方nerdctl
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### Kubernetes容器编排
 
 - K8s部署
 
+<<<<<<< HEAD
 	- kubeadm官方
 	- 自建资源包
 	- KubeSphere
@@ -634,11 +1119,21 @@
 	- MiniKube
 	- kind(k8s in docker)
 	- DockerDesktop
+=======
+  - kubeadm官方
+  - 自建资源包
+  - KubeSphere
+  - KubeboardSpray
+  - MiniKube
+  - kind(k8s in docker)
+  - DockerDesktop
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Kubectl命令行
 - 2022-8-2通过CKA认证
 - 控制面Dashboard
 
+<<<<<<< HEAD
 	- Dashboard
 	- KubeSphere
 
@@ -662,11 +1157,34 @@
 
 		- EMQX
 		- TDengine
+=======
+  - Dashboard
+  - KubeSphere
+
+    - UI优秀
+
+      - 应用导向
+
+    - 可插拔软件
+    - 支持KubeEdge脚本一键部署
+    - 应用商店
+    - DevOps流水线
+    - WeaveScope
+    - 添加自定义仓库
+
+  - KubeBoard
+
+- 应用部署
+
+  - Helm Chart
+  - Operator
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### Serverless
 
 - FaaS+BaaS
 
+<<<<<<< HEAD
 	- 一种服务模式
 
 - CNCF的全景图
@@ -692,11 +1210,29 @@
 	- OpenFunction
 	- KNative
 	- Dapr
+=======
+  - 一种服务模式
+
+- CNCF的全景图
+
+  - serverless dev
+  - 阿里云FC
+
+    - Flask
+
+  - serverless frame
+  - 腾讯
+  - AWS Lamda
+  - OpenFunction
+  - KNative
+  - Dapr
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### Infrastructure as Code
 
 - Terraform
 
+<<<<<<< HEAD
 	- 多云混合云编排工具
 	- 基础设施代码化
 
@@ -706,11 +1242,23 @@
 
 		- 跨基础设施
 		- GitOps集成、版本管理
+=======
+  - 多云混合云编排工具
+  - 基础设施代码化
+
+    - 灵活
+
+      - 复用
+
+    - 跨基础设施
+    - GitOps集成、版本管理
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### SUSE
 
 - Rancher Lab
 
+<<<<<<< HEAD
 	- Rancher
 	- Fleet
 	- k3s
@@ -765,11 +1313,32 @@
 	- Harvester开源超融合
 
 		- 基于k8s
+=======
+  - Rancher
+  - Fleet
+  - k3s
+
+    - Autok3s
+
+  - k3OS
+  - Octopus 
+
+    - 已暂停维护
+
+- SUSE Server软件
+
+  - 服务器
+  - Micro OS Edge管理
+  - Harvester开源超融合
+
+    - 基于k8s
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 微服务
 
 - Istio
 
+<<<<<<< HEAD
 	- Bookinfo Demo
 
 - 微软Dapr
@@ -791,6 +1360,29 @@
 		- Python Flask Demo
 
 	- VS Code插件
+=======
+  - Bookinfo Demo
+
+- 微软Dapr
+
+  - v1.0
+
+    - v1.5
+
+      - v1.8
+
+  - 微服务
+
+    - sidecar
+
+  - 可观测性
+  - 分部式运行时
+  - SDK
+
+    - Python Flask Demo
+
+  - VS Code插件
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - SpringCloud
 
@@ -803,13 +1395,20 @@
 - VMWare ESXi
 - OpenStack
 
+<<<<<<< HEAD
 	- Kolla-ansible
 	- OpenStack命令行
 	- 2022-3-30 Yoga版本
+=======
+  - Kolla-ansible
+  - OpenStack命令行
+  - 2022-3-30 Yoga版本
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - QingCloud KSV虚拟化
 - 超融合系统
 
+<<<<<<< HEAD
 	- SUSE Harvester
 	- VMWare超融合
 	- SmartX
@@ -821,11 +1420,25 @@
 		- 管理口
 
 	- DELL EMC服务器
+=======
+  - SUSE Harvester
+  - VMWare超融合
+  - SmartX
+
+- 服务器
+
+  - 联想服务器
+
+    - 管理口
+
+  - DELL EMC服务器
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 边缘计算框架(k8s衍生)
 
 - 华为KubeEdge
 
+<<<<<<< HEAD
 	- keadm部署
 
 		- cloud/edge
@@ -872,10 +1485,59 @@
 	- OpenYurt体验中心
 
 		- 开源Dashboard控制面
+=======
+  - keadm部署
+
+    - cloud/edge
+
+  - KubeSphere做控制面
+
+    - 节点集中管理、监控、部署
+
+  - Mapper设备管理
+
+    - DMI架构
+
+  - 外部网络访问未成功
+  - EdgeMesh云边通道
+  - Robot SIG
+
+    - 云原生机器人-ROS
+
+- Rancher
+
+  - K3s
+
+    - Autok3s
+
+      - 阿里云等公有云
+      - 私有云平台集群导入
+      - 自家HCI-Harvester平台
+
+    - K3s与k8s
+
+      - K3s与KubeEdge区别
+      - K3s无法加入k8s
+
+  - Rancher Desktop
+
+- 腾讯SuperEdge
+
+  - 云端控制面在腾讯云
+  - 边缘集群与k8s一键转换
+
+- 阿里OpenYurt
+
+  - 边缘集群与k8s一键转换
+  - OpenYurt体验中心
+
+    - 开源Dashboard控制面
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 百度Baetyl(原OpenEdge)
 - VMWare
 
+<<<<<<< HEAD
 	- EdgeX
 
 		- docker-compose部署
@@ -888,10 +1550,25 @@
 - Micro k8s
 
 	- (Ubuntu)
+=======
+  - EdgeX
+
+    - docker-compose部署
+    - v2.0 k8s部署
+
+  - Harbor
+
+    - Docker-compose离线部署
+
+- Micro k8s
+
+  - (Ubuntu)
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 试用、总结PPT、对比表格
 - 边无际Shifu IoT框架
 
+<<<<<<< HEAD
 	- k8s CRD
 
 		- 设备抽象成Pod
@@ -903,11 +1580,25 @@
 			- S7
 
 		- 可以与KubeEdge、OpenYurt结合
+=======
+  - k8s CRD
+
+    - 设备抽象成Pod
+
+      - OPC UA
+
+        - 转HTTP协议
+
+      - S7
+
+    - 可以与KubeEdge、OpenYurt结合
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 公有云
 
 - 阿里云
 
+<<<<<<< HEAD
 	- ECS
 
 		- X86实例
@@ -958,6 +1649,56 @@
 
 	- IoT
 	- 工业互联网平台
+=======
+  - ECS
+
+    - X86实例
+    - ARM实例
+    - GPU实例
+
+  - EKA（k8s）
+  - 镜像仓库
+  - 域名
+
+    - ssl证书
+
+      - 二级域名
+      - CName
+
+  - IOT
+
+    - DataV大屏
+
+      - OEE
+
+  - OpenYurt
+  - FaaS函数计算 Serverless
+
+- 腾讯云
+
+  - 实例
+  - SuperEdge
+  - Serverless国内版-部署
+  - 轻量级应用服务器 2C2G 65元/年
+
+- 百度智能云
+
+  - API
+  - Baetyl
+
+- AWS
+
+  - EC2
+  - S3
+  - greengress
+  - iot
+  - 认证解决方案架构师（助理级）
+
+- 华为云
+
+  - IoT
+  - 工业互联网平台
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - Azure
 
@@ -979,7 +1720,10 @@
 
 - 院内设备数据采集
 - 南通二期设备数据采集
+<<<<<<< HEAD
 - 黑灯工厂数据采集——数字孪生
+=======
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 集团
 
@@ -998,6 +1742,7 @@
 
 - 技术
 
+<<<<<<< HEAD
 	- 数据
 	- 集成
 	- 信息安全
@@ -1006,6 +1751,16 @@
 
 	- 装备
 	- 网络
+=======
+  - 数据
+  - 集成
+  - 信息安全
+
+- 资源
+
+  - 装备
+  - 网络
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 - 航空智能制造成熟度模型
 
@@ -1055,7 +1810,10 @@
 ### 分析机构
 
 - Gartner
+<<<<<<< HEAD
 - 艾瑞咨询
+=======
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 - 爱分析
 
 ### VMware
@@ -1078,7 +1836,10 @@
 - GE
 - 西门子MindSphere
 - 研华边缘计算
+<<<<<<< HEAD
 - 兰光创新
+=======
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 - ……
 
 ### Jimmy Song 宋净超 k8s
@@ -1088,7 +1849,11 @@
 ### 持续的自我驱动力，
 发现问题解决问题
 
+<<<<<<< HEAD
 ### 胡典钢——《工业物联网架构》
+=======
+发现问题解决问题
+>>>>>>> f1ee83d3ee87edc66a3c5dfebce8cbb2c5eb500b
 
 ### 体系化思维，前瞻性
 
